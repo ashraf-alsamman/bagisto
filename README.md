@@ -62,13 +62,22 @@ php artisan storage:link
 php artisan bagisto:publish --force 
 php artisan optimize:clear 
 ```
-### Rollback (if failed)
-```bash
-php artisan migrate:rollback 
-```
+
 ### executing final commands (Run)
 ```bash
 php artisan serve
+```
+
+### admin dashboard
+```bash
+admin@example.com
+admin123 
+```
+
+
+### Rollback (if failed)
+```bash
+php artisan migrate:rollback 
 ```
 
  
