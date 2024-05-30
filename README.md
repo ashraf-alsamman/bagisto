@@ -2,7 +2,7 @@
 
  
 <br>
-<p align="center">Turbopass</p>
+ 
 
 
 <br>
@@ -35,22 +35,15 @@
  
 
 ```bash
-git clone git@bitbucket.org:Turbop/turbopass.git <path>
+git clone 
 ```
  
-Switch the branch to `main`
+<br> 
 
+copy .env.example to a new file named .env
 ```bash
-git main
+cp .env.example .env
 ```
-
-Git pull 
-
-```bash
-git pull
-```
- 
-Switch the branch to `main`
 
 ```bash
  composer install
