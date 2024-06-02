@@ -49,11 +49,11 @@ cp .env.example .env
  composer install
 ```
 
-## run php server like wamp , xamp , mamp
-```bash
-create bagisto empty DB and set users and pass (bagisto,bagisto)
-```
+## for Database and Redis with Docker 
 
+```bash
+docker-compose up -d 
+```
 ## Migrations
 ```bash
 php artisan optimize:clear 
@@ -62,7 +62,6 @@ php artisan storage:link
 php artisan bagisto:publish --force 
 php artisan optimize:clear 
 ```
-
 ### executing final commands (Run)
 ```bash
 php artisan serve
@@ -73,7 +72,6 @@ php artisan serve
 admin@example.com
 admin123 
 ```
-
 
 ### Rollback (if failed)
 ```bash
